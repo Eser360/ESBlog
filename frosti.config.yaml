@@ -1,50 +1,33 @@
 # 网站的基本信息
 site:
   tab: Eser Sevinç # Tarayıcı sekme çubuğu görüntülenir
-  title: 💠 Eser Sevinç # Web sitesinin başlığı
+  title: Eser Sevinç | Blog # Web sitesinin başlığı
   description: Yazılım sektöründe; İş Analizi, Proje Yönetimi, Ekip Yönetimi ve Liderlik gibi konular üzerine bilgi birikimi. # 网站的描述，用于SEO等
-  language: en # Web sitesinin dili, örneğin "en" İngilizce
+  language: tr # Web sitesinin dili, örneğin "en" İngilizce
   favicon: /favicon.ico # Tarayıcı sekmelerinde ve diğer yerlerde kullanılan web sitesinin simgesi
   theme: # Daha fazla tema için https://daisyui.com/docs/themes/
     light: lofi # Açık mod
-    dark: black # Koyu mod
+    dark: halloween # Koyu mod
     code: github-dark # Kod bloğunun teması https://shiki.style/themes
   date_format: ddd MMM DD YYYY # Tarih biçimi ayarı, özel biçimi destekler
   blog: # Blog ile ilgili yapılandırma
     pageSize: 7 # Sayfa başına görüntülenecek makale sayısı
   menu: # Menü yapılandırması
     - id: home # Öğe için benzersiz tanımlayıcı
-      text: Home # Menü öğesi görüntüleme
+      text: Anasayfa # Menü öğesi görüntüleme
       href: / # Menü öğesi bağlantısının URL'si
       svg: "material-symbols:home-outline-rounded"
       target: _self
     - id: about
-      text: About
+      text: Hakkımda
       href: /about
       svg: "material-symbols:info-outline-rounded"
       target: _self
     - id: blog
-      text: Blogs
+      text: Blog
       href: /blog
       svg: "material-symbols:book-2-outline-rounded"
       target: _self
-      # subItems:
-        # - id: all
-        #  text: All blogs
-        #  href: /blog
-        #  svg: "material-symbols:ink-pen-outline-rounded"
-        #  target: _self
-        # - id: tech
-        #  text: Tech blogs
-        #  href: /blog/category/tech
-        #  svg: "material-symbols:deployed-code-outline"
-        #  target: _self
-        # - id: life
-        #  text: Life blogs
-        #  href: /blog/category/life
-        #  svg: "material-symbols:earthquake-rounded"
-        #  target: _self
-        # 子菜单项配置
     - id: project
       text: Projeler
       href: /project
@@ -57,8 +40,8 @@ site:
       target: _self
     - id: contact
       text: İletişim
-      href: "mailto:contact.evesunmaple@outlook.com"
-      target: _blank # 在新标签页打开
+      href: /contact
+      target: _self
       svg: "material-symbols:attach-email-outline-rounded"
 
 # Kullanıcının Kişisel Bilgileri
@@ -86,14 +69,6 @@ user:
         svg: "ri:rss-line"
   footer:
     social:
-      - href: "https://buymeacoffee.com/esersevinc" # Bağlantı
-        ariaLabel: Support my work # Simgeler için erişilebilirlik etiketleri
-        title: Bir kahve ısmarla # Simge yüzen başlık
-        svg: "ri:cup-line"
-      - href: "https://github.com/Eser360"
-        ariaLabel: Github
-        title: Github
-        svg: "ri:github-line"
       - href: "https://mastodon.social/@esersevinc"
         ariaLabel: Mastodon
         title: Mastodon
@@ -102,6 +77,14 @@ user:
         ariaLabel: Linkedin
         title: Linkedin
         svg: "ri:linkedin-line"
+      - href: "https://buymeacoffee.com/esersevinc" # Bağlantı
+        ariaLabel: Support my work # Simgeler için erişilebilirlik etiketleri
+        title: Bir kahve ısmarla # Simge yüzen başlık
+        svg: "ri:cup-line"
+      - href: "https://github.com/Eser360"
+        ariaLabel: Github
+        title: Github
+        svg: "ri:github-line"
       - href: "https://www.strava.com/athletes/esersevinc/"
         ariaLabel: Strava
         title: Strava

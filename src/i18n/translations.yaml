@@ -61,28 +61,28 @@ tr:
   label:
     noTag: Hiçbir etiket atanmadı
     tagCard: Etiketler
-    tagPage: Etiket
-    totalTags: Toplam Etiketler
+    tagPage: Etiketler
+    totalTags: Toplam Etiket
     noCategory: Hiçbir kategori atanmadı
     categoryCard: Kategoriler
-    categoryPage: Kategori
+    categoryPage: Kategoriler
     totalCategories: Tüm Kategoriler
     noPosts: Hiçbir gönderi mevcut değil
-    archivePage: Arşivler
+    archivePage: Arşiv
     totalPosts: Toplam Gönderiler
     link: "Link: "
     prevPage: Son gönderiler
     nextPage: Daha eski gönderiler
-    wordCount: kalime
+    wordCount: kelime
     readTime: dakika
     share: Paylaş
     shareCard: Bu makaleyi paylaş
     close: Kapat
     learnMore: Daha fazla bilgi edin
     allTags: Tüm Etiketler
-    allCategories: Tüm Kategoriler
-    post: post
-    posts: posts
+    allCategories: Toplam Kategori
+    post: yazı
+    posts: yazı
     tagDescription: Bu etikete sahip tüm makalelere göz atın
     categoryDescription: Bu kategorideki tüm makalelere göz atın
     tagsPageDescription: Blog genelinde kullanılan tüm etiketleri keşfedin
