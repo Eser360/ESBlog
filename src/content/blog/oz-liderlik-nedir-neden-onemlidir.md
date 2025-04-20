@@ -58,6 +58,5 @@ Güçlü ve zayıf yönleri dürüstçe değerlendirmek, bireyin kendini nasıl 
 
 Bu beceriler, öz liderlik yeteneklerini geliştirerek başarıya ulaşmayı destekler.
 
-### Sonuç
 
 Öz liderlik, modern iş dünyasında ve kişisel yaşamda başarıya ulaşmak için vazgeçilmez bir beceridir. Kendini yönetebilen, düşünen, motive eden ve doğru kararlar alabilen bireyler, her zaman bir adım öndedir. Bu blog yazısında bahsedilen yöntemleri ve becerileri geliştirerek, siz de öz liderlik yolculuğunuzda önemli adımlar atabilirsiniz. Unutmayın, *kendine liderlik etmek, başkalarına liderlik etmenin temelidir.*
