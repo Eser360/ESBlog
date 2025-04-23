@@ -1,12 +1,12 @@
 ---
 title: Öz Liderlik Nedir ve Neden Önemlidir?
 description: Öz liderlik nedir? Profesyonel hayatta başarıya ulaşmak için neden önemlidir? Kendinizi nasıl yönetebilir, potansiyelinizi keşfedebilir ve öz liderlik becerilerinizi geliştirebilirsiniz? Hemen okuyun!
-pubDate: 04 04 2025
+pubDate: 04 06 2025
 image: /image/2025/oz-liderlik-nedir.jpg
 categories:
-- work
-tags:
 - Liderlik
+tags:
+- Liderlik, Öz Liderlik, 
 ---
 
 ## Öz Liderlik Nedir ve Neden Önemlidir?
