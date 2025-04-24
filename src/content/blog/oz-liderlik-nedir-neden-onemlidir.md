@@ -6,7 +6,8 @@ image: /image/2025/oz-liderlik-nedir.jpg
 categories:
 - Liderlik
 tags:
-- Liderlik, Öz Liderlik, 
+- Liderlik
+- Öz Liderlik, 
 ---
 
 ## Öz Liderlik Nedir ve Neden Önemlidir?
