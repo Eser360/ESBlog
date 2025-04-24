@@ -81,6 +81,10 @@ user:
         ariaLabel: Support my work # Simgeler için erişilebilirlik etiketleri
         title: Bir kahve ısmarla # Simge yüzen başlık
         svg: "ri:cup-line"
+      - href: "https://pixelfed.social/Eser"
+        ariaLabel: Pixelfed
+        title: Pixelfed
+        svg: "ri:pixelfed-line"
       - href: "https://github.com/Eser360"
         ariaLabel: Github
         title: Github
