@@ -7,7 +7,7 @@ categories:
 - Liderlik
 tags:
 - Liderlik
-- Öz Liderlik, 
+- Öz Liderlik
 ---
 
 ## Öz Liderlik Nedir ve Neden Önemlidir?
