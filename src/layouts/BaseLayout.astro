@@ -16,6 +16,7 @@ const { title, image, headings = [], showTOC = false } = Astro.props;
 <!doctype html>
 <html lang=tr class="bg-base-300" data-theme={SITE_THEME.light} data-theme-type="light">
   <head>
+    <meta name="fediverse:creator" content="@esersevinc@mastodon.social">
     <ClientRouter />
     <ElementCrossing />
     <PointerOnNavigation />
@@ -64,7 +65,6 @@ const { title, image, headings = [], showTOC = false } = Astro.props;
   <script is:inline src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js" 
   data-app-id="ED27DE8C-85CD-47BD-A215-69388F308B14">
   </script>
-  <meta name="fediverse:creator" content="@esersevinc@mastodon.social">
   </head>
   <body>
     <!-- Mobile Navbar - Hidden on desktop -->
