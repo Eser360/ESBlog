@@ -23,18 +23,6 @@ const { title, image, headings = [], showTOC = false } = Astro.props;
     <Header description={SITE_DESCRIPTION} favicon={SITE_FAVICON} image={image} />
     <title>{`${title} - ${SITE_TAB}`}</title>
 
-    <script is:inline>
-      const form = document.getElementById('30bb3e62-b60e-4331-b501-c365d0ac8a3e');
-    
-      form.addEventListener('submit', function(e) {
-          const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
-          if (!hCaptcha) {
-              e.preventDefault();
-              alert("Lütfen captcha alanını doldurun!")
-              return
-          }
-      });
-      </script>
     <!-- Initial theme setup on first load -->
     <script define:vars={{ SITE_THEME }} is:inline>
       (function () {
@@ -77,9 +65,8 @@ const { title, image, headings = [], showTOC = false } = Astro.props;
   <script is:inline src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js" 
   data-app-id="ED27DE8C-85CD-47BD-A215-69388F308B14" data-is-test-mode="true">
   </script>
-  <! -- Step 2: Add the Web3Forms script -->
-  <script is:inline src="https://web3forms.com/client/script.js" async defer></script>
-  </head>
+
+
   <body>
     <!-- Mobile Navbar - Hidden on desktop -->
     <Navbar />
