@@ -26,7 +26,7 @@ import "@/styles/contactedit.scss";
     <Info><b>Matrix</b> - <a href="https://matrix.to/#/@esersevinc:matrix.org" target="_blank">@esersevinc:matrix.org</a></Info><br />
     <Info
       ><b>Mail Gönder</b> - <a
-        href="mailto:esersevinc@disroot.org?subject=%C4%B0leti%C5%9Fim%20Formu%20-%20EserSevinc%20Blog">İletişime Geç</a
+        href="mailto:eser360@gmail.com?subject=%C4%B0leti%C5%9Fim%20Formu%20-%20EserSevinc%20Blog">İletişime Geç</a
       ></Info
     >
     <br />
@@ -37,9 +37,11 @@ import "@/styles/contactedit.scss";
       </div>
 
       <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="30bb3e62-b60e-4331-b501-c365d0ac8a3e" />
+        <input type="hidden" name="access_key" value="805a5934-78ad-40bc-be51-41f648fa8a61" />
         <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
         <input type="hidden" name="from_name" value="My Website" />
+        <input type="hidden" name="redirect" value="https://esersevinc.com.tr/contactt">
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
         <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
 
         <div class="form-group-container">
@@ -53,7 +55,7 @@ import "@/styles/contactedit.scss";
           </div>
           <div class="form-group">
             <label for="phone" class="form-label">Telefon numaranız</label>
-            <input id="phone" name="phone" class="form-input" placeholder="+90 (111) 2223344" type="text" />
+            <input id="phone" name="phone" class="form-input" placeholder="+90 (555) 2223344" type="text" />
           </div>
           <div class="form-group">
             <label for="message" class="form-label">Mesajınız</label>
