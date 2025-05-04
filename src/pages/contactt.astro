@@ -4,6 +4,7 @@ import { t } from "@config";
 import { Icon } from "astro-icon/components";
 import MainCard from "@/components/MainCard.astro";
 import Info from "@/components/mdx/Info.astro";
+import Success from "@/components/mdx/Success.astro";
 ---
 
 <BaseLayout title="İletişim">
@@ -13,28 +14,19 @@ import Info from "@/components/mdx/Info.astro";
     textOverlay="CONTACT"
     infoIcon="lucide:contact"
   >
-    <p class="contact-description">
-      Aşağıdaki yöntemleri kullanarak benimle iletişime geçebilirsiniz. En kısa sürede size yanıt dönüyor olacağım.
-    </p><br />
-    <h2 class="contact-title">Sosyal Medya Üzerinden İletişime Geçin</h2><br />
-    <Info
+  <br />  
+  <Success>İletişime geçtiğiniz için teşekkürler. <br /> En kısa sürede size geri dönüş yapıyor olacağım.</Success>
+   <br /><br />
+  <h2 class="contact-title">Aşağıdaki yöntemleri de kullanarak iletişime geçebilirsiniz.</h2><br />
+  <Info
       ><b>Mastodon</b> - <a href="https://mastodon.social/@esersevinc" target="_blank">@esersevinc@mastodon.social</a
       ></Info
     ><br />
-    <Info><b>LinkedIn</b> - <a href="https://www.linkedin.com/in/esersevinc" target="_blank">esersevinc</a></Info><br />
-    <Info><b>Matrix</b> - <a href="https://matrix.to/#/@esersevinc:matrix.org" target="_blank">@esersevinc:matrix.org</a></Info><br />
-    <Info
+  <Info><b>LinkedIn</b> - <a href="https://www.linkedin.com/in/esersevinc" target="_blank">esersevinc</a></Info><br />
+  <Info><b>Matrix</b> - <a href="https://matrix.to/#/@esersevinc:matrix.org" target="_blank">@esersevinc:matrix.org</a></Info><br />
+  <Info
       ><b>Mail Gönder</b> - <a
-        href="mailto:eser360@gmail.com?subject=%C4%B0leti%C5%9Fim%20Formu%20-%20EserSevinc%20Blog">İletişime Geç</a
-      ></Info
-    >
-    <br />
-    <br />
-    <section class="contact-section">
-      <div class="contact-intro">
-        <h2 class="contact-title">İletişime geçtiğiniz için teşekkürler</h2>
-      </div>
-      <p>En kısa sürede size geri dönüş yapıyor olacağım.</p>
-    </section>
+        href="mailto:eser360@gmail.com?subject=%C4%B0leti%C5%9Fim%20Formu%20-%20EserSevinc%20Blog">İletişime Geç</a>
+    </Info>
   </MainCard>
 </BaseLayout>
