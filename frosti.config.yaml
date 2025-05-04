@@ -3,7 +3,7 @@ site:
   tab: Eser Sevinç # Tarayıcı sekme çubuğu görüntülenir
   title: Eser Sevinç | Blog # Web sitesinin başlığı
   description: Yazılım sektöründe; İş Analizi, Proje Yönetimi, Ekip Yönetimi ve Liderlik gibi konular üzerine bilgi birikimi. # 网站的描述，用于SEO等
-  language: tr # Web sitesinin dili, örneğin "en" İngilizce
+  language: TR # Web sitesinin dili, örneğin "en" İngilizce
   favicon: /favicon.ico # Tarayıcı sekmelerinde ve diğer yerlerde kullanılan web sitesinin simgesi
   theme: # Daha fazla tema için https://daisyui.com/docs/themes/
     light: bumblebee # Açık mod
