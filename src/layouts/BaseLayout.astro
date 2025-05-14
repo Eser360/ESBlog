@@ -65,18 +65,6 @@ const { title, image, headings = [], showTOC = false } = Astro.props;
   <script is:inline src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js" 
   data-app-id="ED27DE8C-85CD-47BD-A215-69388F308B14">
   </script>
-
-  <!-- Google tag (gtag.js) -->
-  <script is:inline src="https://www.googletagmanager.com/gtag/js?id=G-VS8ZV5Z67G"></script>
-  <script is:inline>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-VS8ZV5Z67G');
-  </script>
   </head>
   <body>
     <!-- Mobile Navbar - Hidden on desktop -->
