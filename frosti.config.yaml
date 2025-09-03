@@ -3,7 +3,7 @@ site:
   tab: Eser Sevinç # Tarayıcı sekme çubuğu görüntülenir
   title: Eser Sevinç | Blog # Web sitesinin başlığı
   description: Yazılım sektöründe; İş Analizi, Proje Yönetimi, Ekip Yönetimi ve Liderlik gibi konular üzerine bilgi birikimi. # 网站的描述，用于SEO等
-  language: TR # Web sitesinin dili, örneğin "en" İngilizce
+  language: tr # Web sitesinin dili, örneğin "en" İngilizce
   favicon: /favicon.ico # Tarayıcı sekmelerinde ve diğer yerlerde kullanılan web sitesinin simgesi
   theme: # Daha fazla tema için https://daisyui.com/docs/themes/
     light: cupcake # Açık mod
@@ -77,18 +77,10 @@ user:
         ariaLabel: Linkedin
         title: Linkedin
         svg: "ri:linkedin-line"
-      - href: "https://buymeacoffee.com/esersevinc" # Bağlantı
-        ariaLabel: Support my work # Simgeler için erişilebilirlik etiketleri
-        title: Bir kahve ısmarla # Simge yüzen başlık
-        svg: "ri:cup-line"
       - href: "https://pixelfed.social/Eser"
         ariaLabel: Pixelfed
         title: Pixelfed
         svg: "ri:pixelfed-line"
-      - href: "https://github.com/Eser360"
-        ariaLabel: Github
-        title: Github
-        svg: "ri:github-line"
       - href: "https://www.strava.com/athletes/esersevinc/"
         ariaLabel: Strava
         title: Strava
