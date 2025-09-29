@@ -5,7 +5,6 @@ pubDate: 04 06 2025
 categories:
 - Liderlik
 tags:
-- Liderlik
 - Öz Liderlik
 ---
 
