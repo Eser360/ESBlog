@@ -15,6 +15,7 @@ const { title, image, description = SITE_DESCRIPTION, headings = [], showTOC = f
 <!doctype html>
 <html lang={SITE_LANGUAGE} class="bg-base-300" data-theme={SITE_THEME.light} data-theme-type="light">
   <head>
+    <meta name="fediverse:creator" content="@esersevinc@mastodon.social">
     <ClientRouter />
     <ElementCrossing />
     <PointerOnNavigation />
@@ -45,6 +46,10 @@ const { title, image, description = SITE_DESCRIPTION, headings = [], showTOC = f
           }
         });
       })();
+    </script>
+    <!-- Telemetry  -->
+    <script is:inline src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js" 
+    data-app-id="ED27DE8C-85CD-47BD-A215-69388F308B14">
     </script>
   </head>
 

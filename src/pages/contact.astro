@@ -1,0 +1,69 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { t } from "@config";
+import { Icon } from "astro-icon/components";
+import MainCard from "@/components/MainCard.astro";
+import Info from "@/components/mdx/Info.astro";
+import "@/styles/contactedit.scss";
+---
+
+<BaseLayout title="İletişim">
+  <MainCard
+    title="İletişim Seçenekleri"
+    description="Herhangi bir konuda benimle iletişime geçmekten çekinmeyin."
+    textOverlay="İLETİŞİM"
+    infoIcon="lucide:contact"
+  >
+    <p class="contact-description">
+      Aşağıdaki yöntemleri kullanarak benimle iletişime geçebilirsiniz. <br />
+      En kısa sürede size yanıt dönüyor olacağım.
+    </p><br />
+    <h2 class="contact-title">İletişime Kanalları</h2><br />
+    <p class="contact-description">
+      Öncelikli iletişim tercihim Mail ve Signal olmakla birlikte tercih her zaman sizin. 
+    </p><br />
+      <Info><b>Mail Gönder</b> - <a href="mailto:eser360@gmail.com?subject=%C4%B0leti%C5%9Fim%20Formu%20-%20EserSevinc%20Blog">İletişime Geç</a></Info><br />
+      <Info><b>Signal</b> - <a href="https://signal.me/#eu/CMLd22HJMz2jVyj_GFo-KU0uwU2hifce_mRIcS2BhFAnfjTeop1EKLTbTpFqvOnP" target="_blank">EserSevinc.01</a></Info><br />
+      <Info><b>Matrix</b> - <a href="https://matrix.to/#/@esersevinc:matrix.org" target="_blank">@esersevinc:matrix.org</a></Info><br />
+    <br />
+    <br />
+    <h2 class="contact-title">Sosyal Medya Kanalları</h2><br />
+    <Info><b>Mastodon</b> - <a href="https://mastodon.social/@esersevinc" target="_blank">@esersevinc@mastodon.social</a></Info><br />
+    <br />
+    <br />
+    <section class="contact-section">
+      <div class="contact-intro">
+        <h2 class="contact-title">Form ile İletişime Geçin</h2>
+      </div>
+
+      <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="805a5934-78ad-40bc-be51-41f648fa8a61" />
+        <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+        <input type="hidden" name="from_name" value="My Website" />
+        <input type="hidden" name="redirect" value="https://esersevinc.com.tr/contactt">
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+
+        <div class="form-group-container">
+          <div class="form-group">
+            <label for="name" class="form-label">Adınız</label>
+            <input id="name" name="name" class="form-input" placeholder="Ad Soyad" type="text" />
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">E-posta</label>
+            <input id="email" name="email" class="form-input" placeholder="E-posta adresiniz" type="email" />
+          </div>
+          <div class="form-group">
+            <label for="phone" class="form-label">Telefon numaranız</label>
+            <input id="phone" name="phone" class="form-input" placeholder="+90 (555) 2223344" type="text" />
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">Mesajınız</label>
+            <textarea class="form-textarea" id="message" name="message" placeholder="Mesajınız"></textarea>
+          </div>
+        </div>
+        <button class="form-submit" type="submit">Gönder</button>
+      </form>
+    </section>
+  </MainCard>
+</BaseLayout>

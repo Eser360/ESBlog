@@ -61,6 +61,69 @@ en:
     10: October
     11: November
     12: December
+tr:
+  label:
+    noTag: Hiçbir etiket atanmadı
+    tagCard: Etiketler
+    tagPage: Etiketler
+    totalTags: Toplam Etiket
+    noCategory: Hiçbir kategori atanmadı
+    categoryCard: Kategoriler
+    categoryPage: Kategoriler
+    totalCategories: Tüm Kategoriler
+    noPosts: Hiçbir gönderi mevcut değil
+    archivePage: Arşiv
+    totalPosts: Toplam Gönderiler
+    link: "Link: "
+    prevPage: Son gönderiler
+    nextPage: Daha eski gönderiler
+    wordCount: kelime
+    readTime: dakika
+    share: Paylaş
+    shareCard: Bu makaleyi paylaş
+    close: Kapat
+    learnMore: Daha fazla bilgi edin
+    allTags: Tüm Etiketler
+    allCategories: Toplam Kategori
+    post: yazı
+    posts: yazı
+    tagDescription: Bu etikete sahip tüm makalelere göz atın
+    categoryDescription: Bu kategorideki tüm makalelere göz atın
+    tagsPageDescription: Blog genelinde kullanılan tüm etiketleri keşfedin
+    categoriesPageDescription: Blogda mevcut tüm kategorileri keşfedin
+    archivesPageDescription: Tarihe göre düzenlenmiş makalelere göz atın
+    backToBlog: Blog'a geri dön
+    themeToggle: Tema Geçişi
+    searchPage: Arama
+    searchPageDescription: Blog genelinde makaleleri arayın
+    search: Arama
+    searchPlaceholder: Aramak için yazın...
+    tableOfContents: İçindekiler
+    noContents: Başlık bulunamadı
+    404title: Sayfa Bulunamadı
+    404description: "Bilinmeyene doğru bir yolculuğa çıkmış gibi görünüyorsunuz. Aradığınız sayfa mevcut değil veya başka bir boyuta taşınmış."
+    404backHome: Ana Sayfaya Dön
+    404goBack: Geri Dön
+    404youMightLike: İlginizi çekebilir
+    404exploreBlog: Blogumuzu keşfedin
+    404browseArchives: Arşivlere göz atın
+    404searchContent: İçerik ara
+    notFound: Bulunamadı
+    tagNotFoundDescription: "Bu etikete sahip herhangi bir gönderi bulamadık. Aradığınızı bulmak için mevcut tüm etiketlere göz atabilirsiniz."
+    categoryNotFoundDescription: "Bu kategoride herhangi bir gönderi bulamadık. Aradığınızı bulmak için mevcut tüm kategorilere göz atabilirsiniz."
+  months:
+    1: Ocak
+    2: Şubat
+    3: Mart
+    4: Nisan
+    5: Mayıs
+    6: Haziran
+    7: Temmuz
+    8: Ağustos
+    9: Eylül
+    10: Ekim
+    11: Kasım
+    12: Aralık
 zh:
   label:
     noTag: 未分配标签

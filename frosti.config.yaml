@@ -1,104 +1,87 @@
 # 网站的基本信息
 site:
-  tab: Frosti # 浏览器标签栏上显示的文本
-  title: 💠 Frosti # 网站的标题
-  description: A clean, elegant, and fast static blog template! 🚀 Developed with Astro # 网站的描述，用于SEO等
-  language: en # 网站的语言，例如 "en" 是英文
-  favicon: /favicon.ico # 网站的图标，用于浏览器标签栏和其他地方显示
-  theme: # 更多主题 https://daisyui.com/docs/themes/
-    light: winter # 主题的浅色模式
-    dark: dracula # 主题的深色模式
-    code: github-dark # 代码块的主题 https://expressive-code.com/guides/themes/
-  date_format: ddd MMM DD YYYY # 日期格式设置，支持自定义格式
-  blog: # 博客相关配置
-    pageSize: 8 # 每页显示的文章数量
-  menu: # 菜单配置
-    - id: home # 菜单项的唯一标识符
-      text: Home # 菜单项显示的文本
-      href: / # 菜单项链接的地址
+  tab: Eser SEVİNÇ # Tarayıcı sekme çubuğu görüntülenir
+  title: Eser SEVİNÇ # Web sitesinin başlığı
+  description: Yazılım sektöründe; İş Analizi, Proje Yönetimi, Ekip Yönetimi ve Liderlik gibi konular üzerine bilgi birikimi. # SEO vb. amaçlarla kullanılan sitenin tanımı.
+  language: tr # Web sitesinin dili, örneğin "en" İngilizce
+  favicon: /favicon.ico # Tarayıcı sekmelerinde ve diğer yerlerde kullanılan web sitesinin simgesi
+  theme: # Daha fazla tema için https://daisyui.com/docs/themes/
+    light: cupcake # Açık mod
+    dark:  halloween # Koyu mod
+    code: andromeeda # Kod bloğunun teması https://shiki.style/themes
+  date_format: ddd DD MMM YYYY # Tarih biçimi ayarı, özel biçimi destekler
+  blog: # Blog ile ilgili yapılandırma
+    pageSize: 7 # Sayfa başına görüntülenecek makale sayısı
+  menu: # Menü yapılandırması
+    - id: home # Öğe için benzersiz tanımlayıcı
+      text: Anasayfa # Menü öğesi görüntüleme
+      href: / # Menü öğesi bağlantısının URL'si
       svg: "material-symbols:home-outline-rounded"
       target: _self
     - id: about
-      text: About
+      text: Hakkımda
       href: /about
       svg: "material-symbols:info-outline-rounded"
       target: _self
     - id: blog
-      text: Blogs
+      text: Blog
       href: /blog
       svg: "material-symbols:book-2-outline-rounded"
       target: _self
-      subItems:
-        - id: all
-          text: All blogs
-          href: /blog
-          svg: "material-symbols:ink-pen-outline-rounded"
-          target: _self
-        - id: documentation
-          text: Documentation
-          href: /blog/category/Documentation
-          svg: "material-symbols:unknown-document-outline-rounded"
-          target: _self
-        - id: examples
-          text: Examples
-          href: /blog/category/Examples
-          svg: "material-symbols:deployed-code-outline"
-          target: _self
-        # 子菜单项配置
     - id: project
-      text: Project
+      text: Projeler
       href: /project
       svg: "material-symbols:code-blocks-outline"
       target: _self
     - id: friend
-      text: Friend
+      text: Blogroll
       href: /friend
       svg: "material-symbols:supervisor-account-outline-rounded"
       target: _self
     - id: contact
-      text: Contact
-      href: "mailto:contact.evesunmaple@outlook.com"
-      target: _blank # 在新标签页打开
+      text: İletişim
+      href: /contact
+      target: _self
       svg: "material-symbols:attach-email-outline-rounded"
 
-# 用户的个人信息
+# Kullanıcının Kişisel Bilgileri
 user:
-  name: EveSunMaple # 用户名
-  site: "https://frosti.saroprock.com" # 用户的网站链接
-  avatar: /profile.png # 用户头像路径
-  sidebar: # 侧边栏配置
+  name: Eser Sevinç # kullanıcı adı
+  site: "https://esersevinc.com.tr" # Kullanıcının web sitesi bağlantısı
+  avatar: /ESLOGO.png # Kullanıcı avatar yolu
+  sidebar: # Kenar Çubuğu Yapılandırması
     social:
-      - href: "https://afdian.com/a/saroprock" # 链接
-        ariaLabel: Support my work # 图标的可访问性标签
-        title: Support my work # 图标的悬浮标题
-        svg: "ri:cup-line"
-      - href: "https://github.com/EveSunMaple"
+      - href: "https://mastodon.social/@esersevinc" # Bağlantı
+        ariaLabel: Mastodon # Simgeler için erişilebilirlik etiketleri
+        title: Mastodon # Simge yüzen başlık
+        svg: "ri:mastodon-line"
+      - href: "https://github.com/Eser360"
         ariaLabel: Github
         title: Github
         svg: "ri:github-line"
-      - href: "https://space.bilibili.com/438392347"
-        ariaLabel: BiliBili
-        title: BiliBili
-        svg: "ri:bilibili-line"
-      - href: "https://x.com/EveSunMaple"
-        ariaLabel: X(twitter)
-        title: X(twitter)
-        svg: "ri:twitter-line"
+      - href: "https://www.strava.com/athletes/esersevinc/"
+        ariaLabel: Strava
+        title: Strava
+        svg: "ri:riding-line"
+      - href: "https://esersevinc.com.tr/rss.xml"
+        ariaLabel: RSS
+        title: RSS
+        svg: "ri:rss-line"
   footer:
     social:
-      - href: "https://afdian.com/a/saroprock" # 链接
-        ariaLabel: Support my work # 图标的可访问性标签
-        title: Support my work # 图标的悬浮标题
-        svg: "ri:cup-line"
-      - href: "https://github.com/EveSunMaple"
+      - href: "https://mastodon.social/@esersevinc"
+        ariaLabel: Mastodon
+        title: Mastodon
+        svg: "ri:mastodon-line"
+      - href: "https://github.com/Eser360"
         ariaLabel: Github
         title: Github
         svg: "ri:github-line"
-      - href: "https://space.bilibili.com/438392347"
-        ariaLabel: BiliBili
-        title: BiliBili
-        svg: "ri:bilibili-line"
-      - href: "https://x.com/EveSunMaple"
-        ariaLabel: X(twitter)
-        title: X(twitter)
-        svg: "ri:twitter-line"
+      - href: "https://pixelfed.social/Eser"
+        ariaLabel: Pixelfed
+        title: Pixelfed
+        svg: "ri:pixelfed-line"
+      - href: "https://www.strava.com/athletes/esersevinc/"
+        ariaLabel: Strava
+        title: Strava
+        svg: "ri:riding-line"
