@@ -9,6 +9,7 @@ import { defineConfig } from "astro/config";
 import rehypeExternalLinks from "rehype-external-links";
 import rehypeKatex from "rehype-katex";
 import remarkMath from "remark-math";
+import rehypeExternalLinks from 'rehype-external-links';
 
 import { CODE_THEME, USER_SITE } from "./src/config.ts";
 
@@ -30,7 +31,10 @@ export default defineConfig({
     styleOverrides: {
       borderRadius: "0.75rem",
     },
-  }), mdx(), icon(), terser({
+  }), mdx({
+      rehypePlugins: [[rehypeExternalLinks, { target: '_blank', rel: [] }]],
+    }),
+     icon(), terser({
     compress: true,
     mangle: true,
   }), sitemap(), tailwind({
@@ -44,6 +48,7 @@ export default defineConfig({
         content: { type: "text", value: "↗" },
       },
     ]],
+    rehypePlugins: [[rehypeExternalLinks, { target: '_blank', rel: [] }]],
   },
   vite: {
     css: {
