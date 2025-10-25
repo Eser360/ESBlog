@@ -6,8 +6,7 @@ import PostFilter from "@components/widgets/PostFilter.astro";
 import { type CollectionEntry, getCollection } from "astro:content";
 import dayjs from "@utils/dayjs";
 import { DATE_FORMAT } from "@config";
-import MainCard from "@/components/MainCard.astro";
-import Waline from "../../components/comments/Waline.astro";
+import MainCard from "@components/MainCard.astro";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
@@ -62,10 +61,5 @@ const url = new URL(`/blog/${blog.slug}`, Astro.url.origin);
         />
       </div>
     </div>
-    <br>
-    <section class="comments">
-      <p>Bu konuyla ilgili sizin de fikriniz mi var? Yorum yaparak katkı sağlayabilirsiniz. </p>
-      <Waline serverURL="https://es-blog-comment.vercel.app" />
-    </section>
   </MainCard>
 </BaseLayout>
