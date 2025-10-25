@@ -1,0 +1,46 @@
+---
+title: Firefox'ta Yapay Zeka Özelliklerini Devre Dışı Bırak  
+description: Sevgili Mozilla! Topluluğun genelinin itirazına, höykürmesibe ve höykelenmesini salmayarak, Firefox tarayıcımızda yapay zeka özelliklerini varsayılan olarak açık getirerek, kullanıma sunmaya başladı. Peki bunları nasıl devre dışı bırakabiliriz?  
+pubDate: 10 25 2025  
+categories:
+- Teknoloji  
+tags:
+- Firefox
+- Yapay Zeka
+---
+
+Sevgili Mozilla! Topluluğun genelinin itirazına, höykürmesibe ve höykelenmesini salmayarak, Firefox tarayıcımızda yapay zeka özelliklerini varsayılan olarak açık getirerek, kullanıma sunmaya başladı.
+
+Sayfanın en altında tüm yapay zeka özelliklerinin ne işe yaradığını bulabilirsiniz, dilerseniz komple kapatabilir, dilerseniz ayrı ayrı özellikleri kapatabilirsiniz.
+
+Bazı özellikleri devre dışı bırakırken diğerlerini denemeyi tercih ediyorsanız, "**browser.ml.enable**" **true** olarak ayarlayın ve her özelliği ayrı ayrı değiştirin. Bu özelliği **false** olarak ayarlarsanız, tüm yapay zeka özellikleri, tercihinize bakılmaksızın devre dışı bırakılır.
+
+Yapay Zekayı sevmeyen, kullanmamayı tercih eden birisiyim. Bu nedenle bu özelliklerin bir çoğunu devre dışı bıraktım.
+
+**Kullandıklarım ise;**
+- browser.tabs.groups.smart.enabled - açık sekmeleri neye göre gruplandıracağını merak ediyorum
+- extensions.ml.enabled - eklentilerde ne işe yarayacağını gözlemleyeceğim
+- browser.ml.chat.shortcuts - merak ettiğim konuyu  başka web sitelerinde ararım, fakat çok nadiren de olsa, bir bütün olarak değerlendirme kısmında bu özellik işe yarayabilir geldi,
+
+bu özelliklerle ilgili kullanım deneyimimi ileride bu yazının altına eklerim muhtemelen.
+
+
+Tarayıcınızda url alanına about:config yazarak ayar sayfasını açın ve aşağıda "Ayar" alanında yazan kodu aratarak true / false değerini değiştirin.
+
+# Firefox Yapay Zeka Ayarları
+
+| Ayar | Ne kontrol ediyor? |
+| --- | --- |
+| `browser.ml.enable` | Firefox'un yerleşik makine öğrenme platformu için ana anahtar. Bunu kapatmak, tüm yapay zeka özelliklerini devre dışı bırakır. |
+| `browser.ml.chat.enabled` | Yapay zeka chatbot entegrasyonunu sağlar. |
+| `browser.ml.chat.sidebar` | Kenar çubuğunda AI sohbet panelini gösterir. |
+| `browser.ml.chat.shortcuts` | Seçili metinden veya kısayollardan sohbeti başlatmanızı sağlar. |
+| `browser.ml.chat.page` | Metni vurguladığınızda sayfa içi sohbet menüsünü çalıştırır. |
+| `browser.ml.chat.page.footerBadge` | Sayfanın alt kısmında yüzen rozeti görüntüler. |
+| `browser.ml.chat.page.menuBadge` | Sayfa menüsünde “AI’ya Sor” rozetini gösterir. |
+| `browser.ml.chat.menu` | Sağ tıklama menülerine “Bunun hakkında sohbet et” seçeneği eklendi. |
+| `browser.ml.linkPreview.enabled` | Yapay zeka tabanlı bağlantı önizlemeleri ve önerileri oluşturur. |
+| `extensions.ml.enabled` | Tarayıcı eklentilerinin Firefox'un ML API'sini kullanmasına izin verir. |
+| `browser.ml.pageAssist.enabled` | Yapay zeka “sayfa yardımcısı” özetleyicisini/yardımcısını çalıştırır. |
+| `browser.tabs.groups.smart.enabled` | Sekmelerinizi otomatik olarak gruplamak ve etiketlemek için yapay zekayı kullanır. |
+| `browser.tabs.groups.smart.userEnable` | Kullanıcıların akıllı sekme grupları özelliğini manuel olarak açıp kapatmalarına olanak tanır. |

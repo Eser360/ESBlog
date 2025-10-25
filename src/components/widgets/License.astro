@@ -126,7 +126,6 @@ const socialLinks = [
   </div>
 
   <!-- Share Modal -->
-  <!-- Share Modal -->
   <dialog id="share_modal" class="modal modal-bottom sm:modal-middle">
     <div class="modal-box max-w-lg rounded-xl">
       <h3 class="font-bold text-base sm:text-lg mb-4 text-center">
@@ -142,7 +141,7 @@ const socialLinks = [
         />
       </div>
 
-      <!-- 按钮更小巧，排列紧凑 -->
+      <!-- Düğmeler daha küçük ve daha kompakt -->
       <div class="flex flex-wrap gap-3 justify-center">
         {
           socialLinks.map(({ name, icon, class: bgClass, url }) => (
@@ -160,7 +159,7 @@ const socialLinks = [
         }
       </div>
 
-      <!-- 底部关闭按钮 -->
+      <!-- Alt kapatma düğmesi -->
       <div class="modal-action mt-4">
         <form method="dialog" class="w-full flex justify-center">
           <button class="btn btn-md btn-ghost hover:scale-105 transition-transform">
@@ -183,7 +182,7 @@ const socialLinks = [
     opacity: 0;
   }
 
-  /* Remove underlines from PostFilter buttons */
+  /* PostFilter düğmelerinden alt çizgileri kaldırın */
   :global(.card-body .btn-category),
   :global(.card-body .btn-tag) {
     text-decoration: none;
