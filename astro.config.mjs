@@ -50,6 +50,7 @@ export default defineConfig({
     ]],
     rehypePlugins: [[rehypeExternalLinks, { target: '_blank', rel: [] }]],
   },
+  trailingSlash: 'never', // ya da 'always' ile tralingSlash olarak gidilir /url/
   vite: {
     css: {
       preprocessorOptions: {
