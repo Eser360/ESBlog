@@ -13,17 +13,17 @@ import { DATE_FORMAT } from "@config";
 import type { CollectionEntry } from "astro:content";
 import { getAllPosts, getCategoriesWithPosts, getCategoryColorClass } from "@utils/blogUtils";
 
-// 获取所有博客文章
+// Tüm blog yazılarını alın
 const allPosts = await getAllPosts();
 
-// 提取所有分类并按分类对文章进行分组
+// Tüm kategorileri çıkarın ve makaleleri kategoriye göre gruplayın.
 const categoryMap = getCategoriesWithPosts(allPosts);
 
-// 转换为数组并按字母顺序排序
+// Diziye dönüştür ve alfabetik olarak sırala
 const categoryEntries = Array.from(categoryMap.entries());
 categoryEntries.sort((a, b) => a[0].localeCompare(b[0]));
 
-// 对每个分类中的文章按日期排序（最新的排在前面）
+// Her kategorideki makaleler tarihe göre sıralanmıştır (en yeni makaleler ilk).
 categoryEntries.forEach(([_, posts]) => {
   posts.sort(
     (a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) =>
@@ -31,7 +31,7 @@ categoryEntries.forEach(([_, posts]) => {
   );
 });
 
-// 统计总分类数
+// Toplam kategori sayısı
 const totalCategories = categoryMap.size;
 ---
 
@@ -51,10 +51,8 @@ const totalCategories = categoryMap.size;
           </h1>
           <p class="text-xl text-base-content/80 max-w-3xl mb-8">
             İçerik üretmeyi, bir şeyler yazmayı, okumayı ve insanlara yardımcı olmayı seviyorum.<br />
-            Ayrıca bisiklet(100+km) sürmek benim için bir tutku.
-          </p>
-            <p class="text-xl text-base-content/80 max-w-3xl mb-8">
             Yazılım sektöründe <span>İş Analisti</span> ve <span>Proje Yöneticisi</span> olarak çalışıyorum... <br />
+            Bu arada, 100+km bisiklet sürmek benim için bir tutku ve mücadele...<br />
           </p>
 
           <br />
