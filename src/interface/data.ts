@@ -115,7 +115,11 @@ export interface AlertBaseProps {
 
 export interface LinkCardProps {
   title: string;
+  writer: string;
   desc: string;
+  finish?: string;
+  read?: string;
+  format?: string;
   url: string;
   img?: string;
   badge?: string;

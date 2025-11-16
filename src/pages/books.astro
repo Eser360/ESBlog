@@ -1,0 +1,69 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { t } from "@config";
+import { Icon } from "astro-icon/components";
+import MainCard from "@/components/MainCard.astro";
+import LinkCard from "@/components/mdx/LinkCard.astro";
+import "@/styles/contactedit.scss";
+---
+
+<BaseLayout title="Kitaplık">
+  <MainCard
+    title="Kitaplık"
+    description="Selamlar! 👋 Burası, severek okuduğum ve beni bazen heyecanlandıran bazen de bitse de gitsek dedirten tüm kitapların bir araya geldiği küçücük kitaplık köşem.."
+    textOverlay="KİTAPLIK"
+    infoIcon="lucide:book"
+  >
+  <h2 class="contact-title">📚 Kitap Aşkım Burada Başlıyor!</h2><br />
+    <p class="contact-description">
+    Selamlar! 👋 Burası, severek okuduğum ve beni bazen heyecanlandıran bazen de bitse de gitsek dedirten tüm kitapların bir araya geldiği küçücük kitaplık köşem. <br />
+    </p><br />
+    <p>
+    <a href="/blog/insan-okusun-diye-yaziyorum-bunlari/">Hayatım boyunca elimden kitap düşmeyen biri olarak</a>, o kağıt kokusuna ve hikayelerin gücüne her zaman hayran kaldım. Her kitap seven kağıt kokusunu sever ama ekitap ve sesli kitaplar da kendine göre avantajları ile birlikte gelir, onları da dışlamamamız gerektiğini düşünüyorum. Kitaplar bizi alıp bambaşka dünyalara götürüyor, yepyeni şeyler öğretiyor ve en önemlisi hayal gücümüzün sınırlarını zorluyor.
+    <p>
+    Yıllar geçtikçe okuma tutkum daha da arttı. Emeklilik planlarımda, bol bol kitap okuma hayali en baş köşede duruyor.
+    </p><br />
+    <p>
+        Koleksiyonuma katmak için sürekli yeni maceralar, ilginç fikirler ve heyecan verici sayfalar arıyorum.
+    </p><br />
+    <p>
+        Eğer "Buna kesinlikle bayılırsın!" dediğin bir kitap varsa, lütfen hiç çekinme! <a href="/contact.astro">Bana ulaşıp</a> tavsiye vermen beni çok mutlu eder. 🥳
+    </p><br />
+    <section>
+    <h2 class="contact-title">Okumaya Devam Ettiklerim</h2><br />
+    <div class="grid grid-cols-1 md:grid-cols-1 gap-6">
+        <LinkCard
+          title="Ezbere Yaşayanlar - Vazgeçemediğimiz Alışkanlıklarımızın Kökenleri"
+          writer="Emrah Sefa Gürkan (1981; Değirmendere, Kocaeli)"
+          desc="Ezbere Yaşayanlar’da iki yüz bin yıllık insanlık mirasının ortaya koyduğu birbirinden değişik toplum ve kültüre yönelerek davranışlarımızı şekillendiren ana etmenleri inceleyecek; kültürle biyoloji, geçmişle gelecek, gelenekle yenilik arasındaki çekişmeyi merkeze alarak, şartların alışkanlıklarımızı ne noktaya kadar değiştirebildiğini tetkik edecek ve doğamıza ne kadar hükmedebildiğimizi göreceğiz."
+          finish="2022"
+          read="Devam ediyor..."
+          star="☆☆☆☆☆ (?)"
+          format="Basılı yayım"
+          img="/image/2025/ezbere-yasayanlar.jpg"
+          categories={["Antropoloji", "Sosyoloji", "Psikoloji"]}
+          />
+    </div>
+    </section>
+    <br /><br />
+    <section>
+    <h2 class="contact-title">Okumayı Bitirdiklerim</h2><br />
+
+    <div class="grid grid-cols-1 md:grid-cols-1 gap-6">
+        <LinkCard
+          title="Gulliver'in Gezileri"
+          writer="Jonathan Swift (İrlanda, 1667-1745)"
+          desc="Genellikle bir çocuk kitabı olarak bilinmesine rağmen, aslında politik, toplumsal ve dinsel eleştiriler içeren bir yetişkin kurgusudur."
+          finish="1726"
+          read="11.11.2025"
+          star="★★★✬☆ (3,5)"
+          format="ebook"
+          url="/blog/gulliverin-gezileri"
+          img="/image/2025/gulliverin-gezileri.jpg"
+          categories={["Hiciv (Taşlama) Romanı", "Macera", "Kurgu"]}
+          />
+    </div>
+    <br />
+    <section>
+  </MainCard>
+</BaseLayout>

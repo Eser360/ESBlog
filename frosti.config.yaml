@@ -28,10 +28,15 @@ site:
       href: /blog
       svg: "material-symbols:book-2-outline-rounded"
       target: _self
+    - id: books
+      text: Kitaplık
+      href: /books
+      svg: "material-symbols:book-outline-rounded"
+      target: _self
     - id: project
       text: Projeler
       href: /project
-      svg: "material-symbols:code-blocks-outline"
+      svg: "material-symbols:account-tree-outline-rounded"
       target: _self
     - id: friend
       text: Blogroll

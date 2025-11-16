@@ -1,7 +1,12 @@
 ---
 export interface LinkCardProps {
   title: string;
+  writer: string;
   desc: string;
+  finish: string;
+  read: string;
+  format: string;
+  star:string;
   url: string;
   img?: string;
   badge?: string;
@@ -13,12 +18,17 @@ export interface LinkCardProps {
 const {
   title,
   img,
+  writer,
   desc,
   url,
   badge,
   target = "_blank",
   icon = "lucide:link",
   categories = [],
+  finish,
+  read,
+  format,
+  star,
 } = Astro.props as LinkCardProps;
 
 import { Image } from "astro:assets";
@@ -36,13 +46,13 @@ import { Icon } from "astro-icon/components";
     rel={target === "_blank" ? "noopener noreferrer" : undefined}
   >
     <div class="flex flex-col md:flex-row gap-4 items-center">
-      <div class="w-full md:w-[120px] h-[120px] flex-shrink-0 bg-base-200 rounded-lg overflow-hidden">
+      <div class="w-full md:w-[200px] h-[275px] flex-shrink-0 bg-base-200 rounded-lg overflow-hidden">
         {
           img ? (
             <Image
               src={img}
-              width={120}
-              height={120}
+              width={200}
+              height={275}
               format="webp"
               alt={title}
               loading="lazy"
@@ -70,11 +80,15 @@ import { Icon } from "astro-icon/components";
             </div>
           )
         }
-
-        <p class="text-base-content/80 line-clamp-2 text-sm">{desc}</p>
+        <p class="text-base-content/80 line-clamp-2 text-sm">Yazar: {writer}</p>
+        <p class="text-base-content/80 line-clamp-2 text-sm">Tamamlanma Yılı: {finish}</p>
+        <p class="text-base-content/80 line-clamp-2 text-sm">Okundu: {read}</p>
+        <p class="text-base-content/80 line-clamp-2 text-sm">Format: {format}</p>
+        <p class="text-base-content/80 line-clamp-2 text-sm">Derecelendirme: {star}</p>
+        <p class="text-base-content/80 line-clamp-2 text-sm">Bilgi: {desc}</p>
         <div class="card-actions justify-end mt-2">
           <div class="flex items-center gap-1 text-primary hover:text-primary-focus transition-colors">
-            <span class="text-sm font-medium">Visit {title}</span>
+            <span class="text-sm font-medium">{title}</span>
             <Icon name="lucide:external-link" class="w-3.5 h-3.5" aria-hidden="true" />
           </div>
         </div>
