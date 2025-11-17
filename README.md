@@ -4,16 +4,17 @@ Sıradan çinko karbon bir vatandaşın kişisel bloguna hoş geldiniz.
 </pre>
 
 
-[🌐 Visit My Blog](https://esersevinc.com.tr)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[📧 Contact Me](https://esersevinc.com.tr/contact)
-
-[![Built with Astro](https://img.shields.io/badge/Built%20with-Astro-ff5d01)](https://astro.build/)&nbsp;&nbsp;&nbsp;[![Theme](https://img.shields.io/badge/Theme-Frosti-blue)](https://github.com/EveSunMaple/Frosti)
-
 
 ## 👋 Eser Sevinç'in Blogu
 
 Yazılım sektöründe İş Analisti ve Proje Yöneticisi olarak çalışıyorum...<br />
 İçerik üretmeyi, bir şeyler yazmayı, okumayı ve insanlara yardımcı olmayı seviyorum.<br />
 Bu arada, 100+km bisiklet sürmek benim için bir tutku ve mücadele...<br />
+
+[🌐 Visit My Blog](https://esersevinc.com.tr)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[📧 Contact Me](https://esersevinc.com.tr/contact)
+
+[![Built with Astro](https://img.shields.io/badge/Built%20with-Astro-ff5d01)](https://astro.build/)&nbsp;&nbsp;&nbsp;[![Theme](https://img.shields.io/badge/Theme-Frosti-blue)](https://github.com/EveSunMaple/Frosti)
+
 
 <hr />
 
@@ -27,7 +28,7 @@ Bu blog şunlarla oluşturulmuştur:
 - **Dağıtım** : Netlify
 - **İçerik** : Markdown/MDX
 
-## 📝 Burada neler Bulacaksınız
+## 📝 Burada Neler Bulacaksınız
 
 - 📝 Deneme ve kısa hikayelerimi ayrıca uzun soluklu kurgu hikayelerimi(roman benzeri)
 - 📚 Okuduğum kitaplar hakkında bir kütüphane
