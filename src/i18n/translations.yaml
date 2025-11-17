@@ -70,7 +70,8 @@ tr:
     noCategory: Hiçbir kategori atanmadı
     categoryCard: Kategoriler
     categoryPage: Kategoriler
-    totalCategories: Tüm Kategoriler
+    categoryPageHome: Tüm Yazılar ve Kategoriler
+    totalCategories: Kategori
     noPosts: Hiçbir gönderi mevcut değil
     archivePage: Arşiv
     totalPosts: Toplam Gönderiler
@@ -90,7 +91,8 @@ tr:
     tagDescription: Bu etikete sahip tüm makalelere göz atın
     categoryDescription: Bu kategorideki tüm makalelere göz atın
     tagsPageDescription: Blog genelinde kullanılan tüm etiketleri keşfedin
-    categoriesPageDescription: Blogda mevcut tüm kategorileri ve yazıları keşfedin...
+    categoriesPageDescription: Blogda mevcut kategorileri ve tüm yazıları keşfedin...
+    categoriesPageDescriptionhome: Blogdaki tüm yazıları ve kategorileri keşfedin...
     archivesPageDescription: Tarihe göre düzenlenmiş makalelere göz atın
     backToBlog: Blog'a geri dön
     themeToggle: Tema Geçişi
@@ -101,7 +103,7 @@ tr:
     tableOfContents: İçindekiler
     noContents: Başlık bulunamadı
     404title: Sayfa Bulunamadı
-    404description: "Bilinmeyene doğru bir yolculuğa çıkmış gibi görünüyorsunuz. Aradığınız sayfa mevcut değil veya başka bir boyuta taşınmış."
+    404description: Bilinmeyene doğru bir yolculuğa çıkmış gibi görünüyorsunuz. Aradığınız sayfa mevcut değil veya başka bir boyuta taşınmış.
     404backHome: Ana Sayfaya Dön
     404goBack: Geri Dön
     404youMightLike: İlginizi çekebilir
@@ -109,8 +111,8 @@ tr:
     404browseArchives: Arşivlere göz atın
     404searchContent: İçerik ara
     notFound: Bulunamadı
-    tagNotFoundDescription: "Bu etikete sahip herhangi bir gönderi bulamadık. Aradığınızı bulmak için mevcut tüm etiketlere göz atabilirsiniz."
-    categoryNotFoundDescription: "Bu kategoride herhangi bir gönderi bulamadık. Aradığınızı bulmak için mevcut tüm kategorilere göz atabilirsiniz."
+    tagNotFoundDescription: Bu etikete sahip herhangi bir gönderi bulamadık. Aradığınızı bulmak için mevcut tüm etiketlere göz atabilirsiniz.
+    categoryNotFoundDescription: Bu kategoride herhangi bir gönderi bulamadık. Aradığınızı bulmak için mevcut tüm kategorilere göz atabilirsiniz.
   months:
     1: Ocak
     2: Şubat
