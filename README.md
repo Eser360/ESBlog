@@ -31,7 +31,7 @@ Bu blog şunlarla oluşturulmuştur:
 
 - 📝 Deneme ve kısa hikayelerimi ayrıca uzun soluklu kurgu hikayelerimi(roman benzeri)
 - 📚 Okuduğum kitaplar hakkında bir kütüphane
- 🔧 Tamamladığım projeler ve bu projeleri tamamlarken öğrenilmiş dersleri ve en iyi uygulama örneklerini
+- 🔧 Tamamladığım projeler ve bu projeleri tamamlarken öğrenilmiş dersleri ve en iyi uygulama örneklerini
 - 💻 Teknoloji, linux ve açık kaynak yazılım, uygulama ve projeler üzerine yazılar
 - 💭 İş yaşamındaki deneyimlerim
 - 🎯 Kişisel hayatımdaki deneyimler ve hedeflerim
