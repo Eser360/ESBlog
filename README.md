@@ -24,7 +24,7 @@ Bu blog şunlarla oluşturulmuştur:
 - **Çerçeve** : Astro
 - **Tema** : Frosti (özelleştirilmiş)
 - **Stil** : Tailwind CSS + daisyUI
-- **Dağıtım** : Vercel
+- **Dağıtım** : Netlify
 - **İçerik** : Markdown/MDX
 
 ## 📝 Burada neler Bulacaksınız
