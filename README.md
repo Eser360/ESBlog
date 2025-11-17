@@ -12,10 +12,11 @@ Sıradan çinko karbon bir vatandaşın kişisel bloguna hoş geldiniz.
 
 ## 👋 Eser Sevinç'in Blogu
 
-Yazılım sektöründe İş Analisti ve Proje Yöneticisi olarak çalışıyorum...
-İçerik üretmeyi, bir şeyler yazmayı, okumayı ve insanlara yardımcı olmayı seviyorum.
-Bu arada, 100+km bisiklet sürmek benim için bir tutku ve mücadele...
-
+Yazılım sektöründe İş Analisti ve Proje Yöneticisi olarak çalışıyorum...<br />
+İçerik üretmeyi, bir şeyler yazmayı, okumayı ve insanlara yardımcı olmayı seviyorum.<br />
+Bu arada, 100+km bisiklet sürmek benim için bir tutku ve mücadele...<br />
+</div>
+<div align="center">
 🛠️ Teknoloji Yığını
 
 Bu blog şunlarla oluşturulmuştur:
