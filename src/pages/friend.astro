@@ -7,6 +7,7 @@ import FriendCard from "@/components/mdx/FriendCard.astro";
 import Card from "@/components/temple/Card.astro";
 import CardGroup from "@/components/temple/CardGroup.astro";
 import Showcase from "@/components/mdx/Showcase.astro";
+
 ---
 
 <BaseLayout title="Blogroll">
@@ -46,74 +47,14 @@ import Showcase from "@/components/mdx/Showcase.astro";
         <FriendCard
           name="Serdar Yavuz"
           avatar="https://github.com/rserdar.png"
-          description=""
+          description="Serdar Yavuz'un 2005 yılından günümüze yazmaya çalıştığı Blog sayfası. Hayret bu sefer üşenmemiş ve bir şeyler yazmış. Enteresan..."
           url="https://serdar.cc"
           type="contributor"
         />
       </div>
     </section>
 
-    <!-- Yararlı Bağlantılar -->
-    <section>
-      <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-        <Icon name="lucide:bookmark" class="w-6 h-6 text-primary" />
-        <span>Yararlı Kaynaklar</span>
-      </h2>
 
-      <div class="grid grid-cols-1 md:grid-cols-1 gap-6">
-      <LinkCard
-        title="Tarz Sahibi Erkek Olmanın Sırları | Kendine Güvenen ve Klas Erkek Olmak"
-        desc="Tarz sahibi erkek olmanın 7 temel özelliği ve bu özellikleri geliştirmek için ipuçları. Kendinden emin, saygılı ve şık erkek olmak için tüyolar."
-        url="https://www.hayalmeyal.org/2025/07/tarz-sahibi-erkek-olmann-srlar-kendine.html"
-        target="_blank"
-        icon="simple-icons:blogger"
-        categories={["Blog", "Klas Erkek"]}
-        />
-      <LinkCard
-        title="Anonimlik, Gizlilik ve Güvenlik: Farklar ve Önemleri"
-        desc="İnternette güvenlik ve gizlilikle ilgili forumlarda yapılan tartışmalarda, birçok kişinin anonimlik, gizlilik ve güvenlik kavramlarını birbirinin yerine kullandığını görüyorum..."
-        url="https://www.hayalmeyal.org/2025/04/anonimlik-gizlilik-ve-guvenlik-farklar.html"
-        target="_blank"
-        icon="simple-icons:blogger"
-        categories={["Blog", "İnternet"]}
-        />
-        <LinkCard
-          title="Neden Sadece Niş Bir Konu Üzerine İçerik Üretmelisin?"
-          desc="İçerik üretirken bir nişe sahip olmanın önemi büyüktür. Niş, belirli bir konuda uzmanlaşmanızı ve hedef kitlenizi oluşturmanızı kolaylaştırır."
-          url="https://www.hayalmeyal.org/2025/02/neden-sadece-nis-bir-konu-uzerine.html"
-          target="_blank"
-          icon="simple-icons:blogger"
-          categories={["Blog", "İçerik Yazarlığı"]}
-        />
-
-        <LinkCard
-          title="Blog Yazmanın Evrimsel Tarihi"
-          desc="Blog yazmak, kişisel web sayfalarının yaygınlaşmasıyla birlikte 90'lı yılların sonunda ortaya çıkmaya başladı ve günümüzde dijital iletişimin görünmeyen yüzünde kalan ama hala temelini oluşturan içeriklerdir."
-          url="https://www.hayalmeyal.org/2025/01/blog-yazmann-evrimsel-tarihi.html"
-          target="_blank"
-          icon="simple-icons:blogger"
-          categories={["Blog", "İçerik Yazarlığı"]}
-        />
-
-        <LinkCard
-          title="SEO Uyumlu Taranabilir Metin Yazmanın 9 Etkili Yolu"
-          desc="Web için yazmak diğer tüm yazı formatlarından farklıdır. Genellikle web'de gerçek bir derinlikle okumayız; kullanıcılar bilgiye hızlıca ulaşmak için tarayarak okurlar."
-          url="https://www.hayalmeyal.org/2024/09/taranabilir-metin-yazmanin-9-etkili-yolu.html"
-          target="_blank"
-          icon="simple-icons:blogger"
-          categories={["Blog", "SEO"]}
-        />
-
-        <LinkCard
-          title="Kaliteli Blog İçeriği Üretmek İçin Eksiksiz Rehber"
-          desc="Blog yazmak, bilgi paylaşmanın ve okuyucularınızla etkileşimde bulunmanın güçlü bir yoludur. Blog yazarken, yapacağınız SEO çalışmalarından ziyade; harika içerik oluşturmak, getirisi daha da büyük olan bir yatırımdır."
-          url="https://www.typescriptlang.org/docs/handbook/intro.html"
-          target="_blank"
-          icon="simple-icons:blogger"
-          categories={["Blog", "İçerik Yazarlığı"]}
-        />
-      </div>
-    </section>
 
     <div class="divider my-8">
       <Icon name="lucide:heart" class="w-10 h-10 text-primary" />
