@@ -3,7 +3,6 @@
 Sıradan çinko karbon bir vatandaşın kişisel bloguna hoş geldiniz.
 </pre>
 
-<div align="center">
 
 [🌐 Visit My Blog](https://esersevinc.com.tr)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[📧 Contact Me](https://esersevinc.com.tr/contact)
 
@@ -15,8 +14,7 @@ Sıradan çinko karbon bir vatandaşın kişisel bloguna hoş geldiniz.
 Yazılım sektöründe İş Analisti ve Proje Yöneticisi olarak çalışıyorum...<br />
 İçerik üretmeyi, bir şeyler yazmayı, okumayı ve insanlara yardımcı olmayı seviyorum.<br />
 Bu arada, 100+km bisiklet sürmek benim için bir tutku ve mücadele...<br />
-</div>
-<div align="center">
+
 🛠️ Teknoloji Yığını
 
 Bu blog şunlarla oluşturulmuştur:
@@ -41,8 +39,9 @@ Bu blog şunlarla oluşturulmuştur:
 - Thanks to [@EveSunMaple](https://github.com/EveSunMaple) for creating the amazing Frosti theme
 - Built with the powerful [Astro](https://astro.build/) framework
 
+<hr />
+
 <img alt="Frosti Logo" src="https://github.com/EveSunMaple/Frosti/blob/main/docs/logo.png" width="100px">
-</div>
 
 [![license](https://badgen.net/github/license/EveSunMaple/Frosti)](https://github.com/EveSunMaple/Frosti/blob/main/LICENSE)&nbsp;&nbsp;&nbsp;[![release](https://badgen.net/github/release/EveSunMaple/Frosti)](https://github.com/EveSunMaple/Frosti/releases)&nbsp;&nbsp;&nbsp;[![stackblitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/github/EveSunMaple/Frosti)
 
