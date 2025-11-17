@@ -15,7 +15,9 @@ Yazılım sektöründe İş Analisti ve Proje Yöneticisi olarak çalışıyorum
 İçerik üretmeyi, bir şeyler yazmayı, okumayı ve insanlara yardımcı olmayı seviyorum.<br />
 Bu arada, 100+km bisiklet sürmek benim için bir tutku ve mücadele...<br />
 
-🛠️ Teknoloji Yığını
+<hr />
+
+## 🛠️ Teknoloji Yığını
 
 Bu blog şunlarla oluşturulmuştur:
 
@@ -27,12 +29,12 @@ Bu blog şunlarla oluşturulmuştur:
 
 ## 📝 Burada neler Bulacaksınız
 
-- 📝 Deneme yazılarım, Kısa Hikaye yazılarım ve uzun soluklu kurgu hikayeler(roman benzeri)
-- 💻 Teknoloji, Linux ve Açık Kaynak üzerine yazılar
-- 🔧 Tamamladığım projeler ve projeleri tamamlarkan öğrneilmiş dersleri ve en iyi uygulama örneklerini
+- 📝 Deneme ve kısa hikayelerimi ayrıca uzun soluklu kurgu hikayelerimi(roman benzeri)
 - 📚 Okuduğum kitaplar hakkında bir kütüphane
+ 🔧 Tamamladığım projeler ve bu projeleri tamamlarken öğrenilmiş dersleri ve en iyi uygulama örneklerini
+- 💻 Teknoloji, linux ve açık kaynak yazılım, uygulama ve projeler üzerine yazılar
 - 💭 İş yaşamındaki deneyimlerim
-- 🎯 Kişisel hayatım ve hedeflerim
+- 🎯 Kişisel hayatımdaki deneyimler ve hedeflerim
 
 ## 🙏 Acknowledgments
 
